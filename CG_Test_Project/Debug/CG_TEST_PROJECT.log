@@ -1,0 +1,43 @@
+﻿  shScene.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xmemory0(856): error C2259: 'shObject': cannot instantiate abstract class
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xmemory0(856): note: due to following members:
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xmemory0(856): note: 'void shObject::initVertex(void)': is abstract
+  c:\users\sabre\documents\sourcecode\project-visualstudio\cg_test_project\cg_test_project\shobject.h(26): note: see declaration of 'shObject::initVertex'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xmemory0(856): note: 'void shObject::initLine(void)': is abstract
+  c:\users\sabre\documents\sourcecode\project-visualstudio\cg_test_project\cg_test_project\shobject.h(27): note: see declaration of 'shObject::initLine'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(958): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<shObject>,
+              _Ty=shObject,
+              _Objty=shObject
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(958): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<shObject>,
+              _Ty=shObject,
+              _Objty=shObject
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(981): note: see reference to function template instantiation 'void std::vector<shObject,std::allocator<_Ty>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=shObject
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(980): note: while compiling class template member function 'void std::vector<shObject,std::allocator<_Ty>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=shObject
+          ]
+  c:\users\sabre\documents\sourcecode\project-visualstudio\cg_test_project\cg_test_project\shscene.cpp(44): note: see reference to function template instantiation 'void std::vector<shObject,std::allocator<_Ty>>::push_back(const _Ty &)' being compiled
+          with
+          [
+              _Ty=shObject
+          ]
+  c:\users\sabre\documents\sourcecode\project-visualstudio\cg_test_project\cg_test_project\shscene.h(10): note: see reference to class template instantiation 'std::vector<shObject,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=shObject
+          ]
+  CG_Test_Project.cpp
+  Generating Code...
